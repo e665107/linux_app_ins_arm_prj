@@ -11,4 +11,7 @@ add_subdirectory(structures_and_algorithms)
 endif (${STRUCTURE_APP})
 
 
+if (${LINUX_PERIPHERAL_APP})
+add_subdirectory(linux_peripheral)
+endif (${LINUX_PERIPHERAL_APP})
 
