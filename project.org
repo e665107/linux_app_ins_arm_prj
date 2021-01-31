@@ -23,6 +23,7 @@ ps -T -p 1092(进程ID)；可以先ps -a
 ./auto.sh clean
 ./auto.sh 
 ./auto.sh run
+
 *** 
 *** 
 *** 
