@@ -1,0 +1,2 @@
+/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc ../lib/libflib_static.a  CMakeFiles/flib_static.dir/src/delay.c.o
+/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib ../lib/libflib_static.a

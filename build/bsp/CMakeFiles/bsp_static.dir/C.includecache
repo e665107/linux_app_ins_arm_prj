@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../bsp/inc/bsp_ttyusb0.h
+
+../flib/inc/debug.h
+stdio.h
+../flib/inc/stdio.h
+
+/home/e66/linux_app_ins_arm_prj/bsp/src/bsp_ttyusb0.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+termios.h
+-
+errno.h
+-
+debug.h
+/home/e66/linux_app_ins_arm_prj/bsp/src/debug.h
+bsp_ttyusb0.h
+/home/e66/linux_app_ins_arm_prj/bsp/src/bsp_ttyusb0.h
+

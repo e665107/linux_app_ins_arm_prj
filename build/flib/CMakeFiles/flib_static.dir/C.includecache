@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../flib/inc/delay.h
+
+/home/e66/linux_app_ins_arm_prj/flib/src/delay.c
+delay.h
+/home/e66/linux_app_ins_arm_prj/flib/src/delay.h
+
