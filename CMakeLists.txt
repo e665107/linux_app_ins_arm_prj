@@ -33,10 +33,12 @@ set(CMAKE_BUILD_TYPE "Debug")
 project(test)
 
 # app 
-set(HELLO_WORLD_APP 1)
+set(HELLO_WORLD_APP 0)
 set(STRUCTURE_APP 0)
 set(UART_COMMUNICATION_APP 0)
-set(TEST_1 0)
+set(LINUX_PERIPHERAL_APP 1)
+
+
 set(TEST_2 0)
 set(TEST_3 0)
 set(TEST_4 0)

@@ -18,7 +18,7 @@ int bsp_ttyusb0_init(void)
     struct termios options;
     
     /* serial_fd = open("/dev/ttyUSB0", O_RDWR | O_NOCTTY | O_NDELAY); */
-    serial_fd = open("/dev/ttyUSB0", O_RDWR | O_NOCTTY);
+    serial_fd = open("/dev/ttymxc2", O_RDWR | O_NOCTTY);
 
     if (serial_fd < 0)
     {

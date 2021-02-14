@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/e66/linux_app_ins_arm_prj
+CMAKE_SOURCE_DIR = /home/e66/git_work/linux_app_ins_arm_prj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/e66/linux_app_ins_arm_prj/build
+CMAKE_BINARY_DIR = /home/e66/git_work/linux_app_ins_arm_prj/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/e66/linux_app_ins_arm_prj/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/e66/linux_app_ins_arm_prj/build/CMakeFiles /home/e66/linux_app_ins_arm_prj/build/bsp/CMakeFiles/progress.marks
-	cd /home/e66/linux_app_ins_arm_prj/build && $(MAKE) -f CMakeFiles/Makefile2 bsp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/e66/linux_app_ins_arm_prj/build/CMakeFiles 0
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles /home/e66/git_work/linux_app_ins_arm_prj/build/bsp/CMakeFiles/progress.marks
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f CMakeFiles/Makefile2 bsp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/e66/linux_app_ins_arm_prj/build && $(MAKE) -f CMakeFiles/Makefile2 bsp/clean
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f CMakeFiles/Makefile2 bsp/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/e66/linux_app_ins_arm_prj/build && $(MAKE) -f CMakeFiles/Makefile2 bsp/preinstall
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f CMakeFiles/Makefile2 bsp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/e66/linux_app_ins_arm_prj/build && $(MAKE) -f CMakeFiles/Makefile2 bsp/preinstall
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f CMakeFiles/Makefile2 bsp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/e66/linux_app_ins_arm_prj/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 bsp/CMakeFiles/bsp_static.dir/rule:
-	cd /home/e66/linux_app_ins_arm_prj/build && $(MAKE) -f CMakeFiles/Makefile2 bsp/CMakeFiles/bsp_static.dir/rule
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f CMakeFiles/Makefile2 bsp/CMakeFiles/bsp_static.dir/rule
 .PHONY : bsp/CMakeFiles/bsp_static.dir/rule
 
 # Convenience name for target.
@@ -122,35 +122,89 @@ bsp_static: bsp/CMakeFiles/bsp_static.dir/rule
 
 # fast build rule for target.
 bsp_static/fast:
-	cd /home/e66/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/build
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/build
 .PHONY : bsp_static/fast
 
-src/bsp_ttyusb0.o: src/bsp_ttyusb0.c.o
+src/bsp_buzz.o: src/bsp_buzz.c.o
 
-.PHONY : src/bsp_ttyusb0.o
+.PHONY : src/bsp_buzz.o
 
 # target to build an object file
-src/bsp_ttyusb0.c.o:
-	cd /home/e66/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o
-.PHONY : src/bsp_ttyusb0.c.o
+src/bsp_buzz.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o
+.PHONY : src/bsp_buzz.c.o
 
-src/bsp_ttyusb0.i: src/bsp_ttyusb0.c.i
+src/bsp_buzz.i: src/bsp_buzz.c.i
 
-.PHONY : src/bsp_ttyusb0.i
+.PHONY : src/bsp_buzz.i
 
 # target to preprocess a source file
-src/bsp_ttyusb0.c.i:
-	cd /home/e66/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.i
-.PHONY : src/bsp_ttyusb0.c.i
+src/bsp_buzz.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.i
+.PHONY : src/bsp_buzz.c.i
 
-src/bsp_ttyusb0.s: src/bsp_ttyusb0.c.s
+src/bsp_buzz.s: src/bsp_buzz.c.s
 
-.PHONY : src/bsp_ttyusb0.s
+.PHONY : src/bsp_buzz.s
 
 # target to generate assembly for a file
-src/bsp_ttyusb0.c.s:
-	cd /home/e66/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.s
-.PHONY : src/bsp_ttyusb0.c.s
+src/bsp_buzz.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.s
+.PHONY : src/bsp_buzz.c.s
+
+src/bsp_led.o: src/bsp_led.c.o
+
+.PHONY : src/bsp_led.o
+
+# target to build an object file
+src/bsp_led.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o
+.PHONY : src/bsp_led.c.o
+
+src/bsp_led.i: src/bsp_led.c.i
+
+.PHONY : src/bsp_led.i
+
+# target to preprocess a source file
+src/bsp_led.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.i
+.PHONY : src/bsp_led.c.i
+
+src/bsp_led.s: src/bsp_led.c.s
+
+.PHONY : src/bsp_led.s
+
+# target to generate assembly for a file
+src/bsp_led.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.s
+.PHONY : src/bsp_led.c.s
+
+src/bsp_max485.o: src/bsp_max485.c.o
+
+.PHONY : src/bsp_max485.o
+
+# target to build an object file
+src/bsp_max485.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o
+.PHONY : src/bsp_max485.c.o
+
+src/bsp_max485.i: src/bsp_max485.c.i
+
+.PHONY : src/bsp_max485.i
+
+# target to preprocess a source file
+src/bsp_max485.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.i
+.PHONY : src/bsp_max485.c.i
+
+src/bsp_max485.s: src/bsp_max485.c.s
+
+.PHONY : src/bsp_max485.s
+
+# target to generate assembly for a file
+src/bsp_max485.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.s
+.PHONY : src/bsp_max485.c.s
 
 # Help Target
 help:
@@ -161,9 +215,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bsp_static"
 	@echo "... edit_cache"
-	@echo "... src/bsp_ttyusb0.o"
-	@echo "... src/bsp_ttyusb0.i"
-	@echo "... src/bsp_ttyusb0.s"
+	@echo "... src/bsp_buzz.o"
+	@echo "... src/bsp_buzz.i"
+	@echo "... src/bsp_buzz.s"
+	@echo "... src/bsp_led.o"
+	@echo "... src/bsp_led.i"
+	@echo "... src/bsp_led.s"
+	@echo "... src/bsp_max485.o"
+	@echo "... src/bsp_max485.i"
+	@echo "... src/bsp_max485.s"
 .PHONY : help
 
 
@@ -175,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/e66/linux_app_ins_arm_prj/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

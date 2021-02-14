@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/e66/linux_app_ins_arm_prj
+CMAKE_SOURCE_DIR = /home/e66/git_work/linux_app_ins_arm_prj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/e66/linux_app_ins_arm_prj/build
+CMAKE_BINARY_DIR = /home/e66/git_work/linux_app_ins_arm_prj/build
 
 # Include any dependencies generated for this target.
 include main/CMakeFiles/test_app.dir/depend.make
@@ -59,16 +59,16 @@ include main/CMakeFiles/test_app.dir/flags.make
 
 main/CMakeFiles/test_app.dir/app_init.c.o: main/CMakeFiles/test_app.dir/flags.make
 main/CMakeFiles/test_app.dir/app_init.c.o: ../main/app_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/CMakeFiles/test_app.dir/app_init.c.o"
-	cd /home/e66/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_app.dir/app_init.c.o   -c /home/e66/linux_app_ins_arm_prj/main/app_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/CMakeFiles/test_app.dir/app_init.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_app.dir/app_init.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/main/app_init.c
 
 main/CMakeFiles/test_app.dir/app_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_app.dir/app_init.c.i"
-	cd /home/e66/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/linux_app_ins_arm_prj/main/app_init.c > CMakeFiles/test_app.dir/app_init.c.i
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/main/app_init.c > CMakeFiles/test_app.dir/app_init.c.i
 
 main/CMakeFiles/test_app.dir/app_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_app.dir/app_init.c.s"
-	cd /home/e66/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/linux_app_ins_arm_prj/main/app_init.c -o CMakeFiles/test_app.dir/app_init.c.s
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/main/app_init.c -o CMakeFiles/test_app.dir/app_init.c.s
 
 main/CMakeFiles/test_app.dir/app_init.c.o.requires:
 
@@ -83,16 +83,16 @@ main/CMakeFiles/test_app.dir/app_init.c.o.provides.build: main/CMakeFiles/test_a
 
 main/CMakeFiles/test_app.dir/bsp_init.c.o: main/CMakeFiles/test_app.dir/flags.make
 main/CMakeFiles/test_app.dir/bsp_init.c.o: ../main/bsp_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object main/CMakeFiles/test_app.dir/bsp_init.c.o"
-	cd /home/e66/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_app.dir/bsp_init.c.o   -c /home/e66/linux_app_ins_arm_prj/main/bsp_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object main/CMakeFiles/test_app.dir/bsp_init.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_app.dir/bsp_init.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/main/bsp_init.c
 
 main/CMakeFiles/test_app.dir/bsp_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_app.dir/bsp_init.c.i"
-	cd /home/e66/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/linux_app_ins_arm_prj/main/bsp_init.c > CMakeFiles/test_app.dir/bsp_init.c.i
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/main/bsp_init.c > CMakeFiles/test_app.dir/bsp_init.c.i
 
 main/CMakeFiles/test_app.dir/bsp_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_app.dir/bsp_init.c.s"
-	cd /home/e66/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/linux_app_ins_arm_prj/main/bsp_init.c -o CMakeFiles/test_app.dir/bsp_init.c.s
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/main/bsp_init.c -o CMakeFiles/test_app.dir/bsp_init.c.s
 
 main/CMakeFiles/test_app.dir/bsp_init.c.o.requires:
 
@@ -107,16 +107,16 @@ main/CMakeFiles/test_app.dir/bsp_init.c.o.provides.build: main/CMakeFiles/test_a
 
 main/CMakeFiles/test_app.dir/main.c.o: main/CMakeFiles/test_app.dir/flags.make
 main/CMakeFiles/test_app.dir/main.c.o: ../main/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object main/CMakeFiles/test_app.dir/main.c.o"
-	cd /home/e66/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_app.dir/main.c.o   -c /home/e66/linux_app_ins_arm_prj/main/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object main/CMakeFiles/test_app.dir/main.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_app.dir/main.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/main/main.c
 
 main/CMakeFiles/test_app.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_app.dir/main.c.i"
-	cd /home/e66/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/linux_app_ins_arm_prj/main/main.c > CMakeFiles/test_app.dir/main.c.i
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/main/main.c > CMakeFiles/test_app.dir/main.c.i
 
 main/CMakeFiles/test_app.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_app.dir/main.c.s"
-	cd /home/e66/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/linux_app_ins_arm_prj/main/main.c -o CMakeFiles/test_app.dir/main.c.s
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/main && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/main/main.c -o CMakeFiles/test_app.dir/main.c.s
 
 main/CMakeFiles/test_app.dir/main.c.o.requires:
 
@@ -142,12 +142,12 @@ bin/test_app: main/CMakeFiles/test_app.dir/app_init.c.o
 bin/test_app: main/CMakeFiles/test_app.dir/bsp_init.c.o
 bin/test_app: main/CMakeFiles/test_app.dir/main.c.o
 bin/test_app: main/CMakeFiles/test_app.dir/build.make
-bin/test_app: lib/libflib_static.a
 bin/test_app: lib/libbsp_static.a
 bin/test_app: lib/libapp_static.a
+bin/test_app: lib/libflib_static.a
 bin/test_app: main/CMakeFiles/test_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/e66/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/test_app"
-	cd /home/e66/linux_app_ins_arm_prj/build/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_app.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ../bin/test_app"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 main/CMakeFiles/test_app.dir/build: bin/test_app
@@ -161,10 +161,10 @@ main/CMakeFiles/test_app.dir/requires: main/CMakeFiles/test_app.dir/main.c.o.req
 .PHONY : main/CMakeFiles/test_app.dir/requires
 
 main/CMakeFiles/test_app.dir/clean:
-	cd /home/e66/linux_app_ins_arm_prj/build/main && $(CMAKE_COMMAND) -P CMakeFiles/test_app.dir/cmake_clean.cmake
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/main && $(CMAKE_COMMAND) -P CMakeFiles/test_app.dir/cmake_clean.cmake
 .PHONY : main/CMakeFiles/test_app.dir/clean
 
 main/CMakeFiles/test_app.dir/depend:
-	cd /home/e66/linux_app_ins_arm_prj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e66/linux_app_ins_arm_prj /home/e66/linux_app_ins_arm_prj/main /home/e66/linux_app_ins_arm_prj/build /home/e66/linux_app_ins_arm_prj/build/main /home/e66/linux_app_ins_arm_prj/build/main/CMakeFiles/test_app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e66/git_work/linux_app_ins_arm_prj /home/e66/git_work/linux_app_ins_arm_prj/main /home/e66/git_work/linux_app_ins_arm_prj/build /home/e66/git_work/linux_app_ins_arm_prj/build/main /home/e66/git_work/linux_app_ins_arm_prj/build/main/CMakeFiles/test_app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : main/CMakeFiles/test_app.dir/depend
 

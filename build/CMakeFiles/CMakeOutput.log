@@ -1,7 +1,7 @@
 The target system is: Linux -  - arm
 The host system is: Linux - 4.18.0-15-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Compiler: /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
 Build flags: 
 Id flags:  
 
@@ -11,10 +11,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Compiler: /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
 Build flags: 
 Id flags:  
 
@@ -24,67 +24,68 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_68448/fast"
-/usr/bin/make -f CMakeFiles/cmTC_68448.dir/build.make CMakeFiles/cmTC_68448.dir/build
-make[1]: 进入目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_68448.dir/CMakeCCompilerABI.c.o
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_68448.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_68448
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68448.dir/link.txt --verbose=1
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_68448.dir/CMakeCCompilerABI.c.o  -o cmTC_68448 
+Run Build Command:"/usr/bin/make" "cmTC_030b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_030b8.dir/build.make CMakeFiles/cmTC_030b8.dir/build
+make[1]: 进入目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_030b8.dir/CMakeCCompilerABI.c.o
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_030b8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_030b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_030b8.dir/link.txt --verbose=1
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_030b8.dir/CMakeCCompilerABI.c.o  -o cmTC_030b8 
 使用内建 specs。
-COLLECT_GCC=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
-COLLECT_LTO_WRAPPER=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/lto-wrapper
+COLLECT_GCC=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/lto-wrapper
 目标：arm-linux-gnueabihf
-配置为：/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2017.01/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-objc-gc --enable-shared --without-included-gettext --enable-nls --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --with-fpu=vfpv3-d16 --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu
+配置为：'/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.3-2018.05/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu
 线程模型：posix
-gcc 版本 4.9.4 (Linaro GCC 4.9-2017.01) 
-COMPILER_PATH=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68448' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
- /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/collect2 -plugin /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/liblto_plugin.so -plugin-opt=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQnVGjm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_68448 /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtbegin.o -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4 -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_68448.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtend.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
-make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+gcc 版本 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) 
+COMPILER_PATH=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_030b8' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/collect2 -plugin /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/liblto_plugin.so -plugin-opt=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIUVIV5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_030b8 /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtbegin.o -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1 -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_030b8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtend.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_030b8' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+make[1]: 离开目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_68448/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_68448.dir/build.make CMakeFiles/cmTC_68448.dir/build]
-  ignore line: [make[1]: 进入目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_68448.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_68448.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_68448]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68448.dir/link.txt --verbose=1]
-  ignore line: [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_68448.dir/CMakeCCompilerABI.c.o  -o cmTC_68448 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_030b8/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_030b8.dir/build.make CMakeFiles/cmTC_030b8.dir/build]
+  ignore line: [make[1]: 进入目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_030b8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_030b8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_030b8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_030b8.dir/link.txt --verbose=1]
+  ignore line: [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_030b8.dir/CMakeCCompilerABI.c.o  -o cmTC_030b8 ]
   ignore line: [使用内建 specs。]
-  ignore line: [COLLECT_GCC=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
-  ignore line: [COLLECT_LTO_WRAPPER=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/lto-wrapper]
+  ignore line: [COLLECT_GCC=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/lto-wrapper]
   ignore line: [目标：arm-linux-gnueabihf]
-  ignore line: [配置为：/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2017.01/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-objc-gc --enable-shared --without-included-gettext --enable-nls --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --with-fpu=vfpv3-d16 --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu]
+  ignore line: [配置为：'/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.3-2018.05/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu]
   ignore line: [线程模型：posix]
-  ignore line: [gcc 版本 4.9.4 (Linaro GCC 4.9-2017.01) ]
-  ignore line: [COMPILER_PATH=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68448' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/collect2 -plugin /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/liblto_plugin.so -plugin-opt=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQnVGjm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_68448 /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtbegin.o -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4 -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_68448.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtend.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/collect2] ==> ignore
+  ignore line: [gcc 版本 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) ]
+  ignore line: [COMPILER_PATH=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_030b8' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/collect2 -plugin /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/liblto_plugin.so -plugin-opt=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIUVIV5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_030b8 /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtbegin.o -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1 -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_030b8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtend.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccQnVGjm.res] ==> ignore
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIUVIV5.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--sysroot=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc] ==> ignore
+    arg [--sysroot=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-dynamic-linker] ==> ignore
@@ -93,17 +94,17 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_68448] ==> ignore
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> ignore
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> ignore
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtbegin.o] ==> ignore
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4]
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf]
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc]
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib]
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib]
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib]
-    arg [CMakeFiles/cmTC_68448.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [cmTC_030b8] ==> ignore
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> ignore
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> ignore
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtbegin.o] ==> ignore
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1]
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [CMakeFiles/cmTC_030b8.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -113,33 +114,33 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtend.o] ==> ignore
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> ignore
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.4]
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf]
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc]
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/lib]
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib]
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtend.o] ==> ignore
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.3.1]
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc]
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.4;/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf;/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc;/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib;/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+  implicit dirs: [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.3.1;/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf;/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc;/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib;/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_056cf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_056cf.dir/build.make CMakeFiles/cmTC_056cf.dir/build
-make[1]: 进入目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_056cf.dir/feature_tests.c.o
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_056cf.dir/feature_tests.c.o   -c /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_056cf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_056cf.dir/link.txt --verbose=1
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_056cf.dir/feature_tests.c.o  -o cmTC_056cf 
-make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_00682/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00682.dir/build.make CMakeFiles/cmTC_00682.dir/build
+make[1]: 进入目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_00682.dir/feature_tests.c.o
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_00682.dir/feature_tests.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_00682
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00682.dir/link.txt --verbose=1
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_00682.dir/feature_tests.c.o  -o cmTC_00682 
+make[1]: 离开目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -149,17 +150,17 @@ make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTm
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_659d0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_659d0.dir/build.make CMakeFiles/cmTC_659d0.dir/build
-make[1]: 进入目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_659d0.dir/feature_tests.c.o
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_659d0.dir/feature_tests.c.o   -c /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_659d0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_659d0.dir/link.txt --verbose=1
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_659d0.dir/feature_tests.c.o  -o cmTC_659d0 
-make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_8fbac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8fbac.dir/build.make CMakeFiles/cmTC_8fbac.dir/build
+make[1]: 进入目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8fbac.dir/feature_tests.c.o
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_8fbac.dir/feature_tests.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8fbac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fbac.dir/link.txt --verbose=1
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_8fbac.dir/feature_tests.c.o  -o cmTC_8fbac 
+make[1]: 离开目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -169,17 +170,17 @@ make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTm
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9d4bc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9d4bc.dir/build.make CMakeFiles/cmTC_9d4bc.dir/build
-make[1]: 进入目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_9d4bc.dir/feature_tests.c.o
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_9d4bc.dir/feature_tests.c.o   -c /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9d4bc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d4bc.dir/link.txt --verbose=1
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_9d4bc.dir/feature_tests.c.o  -o cmTC_9d4bc 
-make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_bb312/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb312.dir/build.make CMakeFiles/cmTC_bb312.dir/build
+make[1]: 进入目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_bb312.dir/feature_tests.c.o
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_bb312.dir/feature_tests.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bb312
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb312.dir/link.txt --verbose=1
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_bb312.dir/feature_tests.c.o  -o cmTC_bb312 
+make[1]: 离开目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -187,64 +188,65 @@ make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTm
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6149f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6149f.dir/build.make CMakeFiles/cmTC_6149f.dir/build
-make[1]: 进入目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_6149f.dir/CMakeCXXCompilerABI.cpp.o
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_6149f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_6149f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6149f.dir/link.txt --verbose=1
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_6149f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6149f 
+Run Build Command:"/usr/bin/make" "cmTC_f6f47/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6f47.dir/build.make CMakeFiles/cmTC_f6f47.dir/build
+make[1]: 进入目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_f6f47.dir/CMakeCXXCompilerABI.cpp.o
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_f6f47.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f6f47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6f47.dir/link.txt --verbose=1
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_f6f47.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f6f47 
 使用内建 specs。
-COLLECT_GCC=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
-COLLECT_LTO_WRAPPER=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/lto-wrapper
+COLLECT_GCC=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/lto-wrapper
 目标：arm-linux-gnueabihf
-配置为：/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2017.01/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-objc-gc --enable-shared --without-included-gettext --enable-nls --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --with-fpu=vfpv3-d16 --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu
+配置为：'/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.3-2018.05/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu
 线程模型：posix
-gcc 版本 4.9.4 (Linaro GCC 4.9-2017.01) 
-COMPILER_PATH=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6149f' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
- /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/collect2 -plugin /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/liblto_plugin.so -plugin-opt=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTqHkdO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_6149f /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtbegin.o -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4 -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_6149f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtend.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
-make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+gcc 版本 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) 
+COMPILER_PATH=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6f47' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/collect2 -plugin /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/liblto_plugin.so -plugin-opt=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxlGs1z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f6f47 /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtbegin.o -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1 -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_f6f47.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtend.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6f47' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+make[1]: 离开目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6149f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6149f.dir/build.make CMakeFiles/cmTC_6149f.dir/build]
-  ignore line: [make[1]: 进入目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_6149f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_6149f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_6149f]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6149f.dir/link.txt --verbose=1]
-  ignore line: [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_6149f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6149f ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f6f47/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f6f47.dir/build.make CMakeFiles/cmTC_f6f47.dir/build]
+  ignore line: [make[1]: 进入目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f6f47.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_f6f47.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f6f47]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6f47.dir/link.txt --verbose=1]
+  ignore line: [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_f6f47.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f6f47 ]
   ignore line: [使用内建 specs。]
-  ignore line: [COLLECT_GCC=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
-  ignore line: [COLLECT_LTO_WRAPPER=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/lto-wrapper]
+  ignore line: [COLLECT_GCC=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/lto-wrapper]
   ignore line: [目标：arm-linux-gnueabihf]
-  ignore line: [配置为：/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/snapshots/gcc-linaro-4.9-2017.01/configure SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-objc-gc --enable-shared --without-included-gettext --enable-nls --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --with-fpu=vfpv3-d16 --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/label/docker-trusty-amd64-tcwg-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu]
+  ignore line: [配置为：'/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/snapshots/gcc.git~linaro-7.3-2018.05/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=hard --with-fpu=vfpv3-d16 --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/sysroots/arm-linux-gnueabihf --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabihf/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabihf/_build/builds/destdir/x86_64-unknown-linux-gnu]
   ignore line: [线程模型：posix]
-  ignore line: [gcc 版本 4.9.4 (Linaro GCC 4.9-2017.01) ]
-  ignore line: [COMPILER_PATH=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6149f' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/collect2 -plugin /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/liblto_plugin.so -plugin-opt=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTqHkdO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_6149f /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtbegin.o -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4 -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_6149f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtend.o /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/collect2] ==> ignore
+  ignore line: [gcc 版本 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) ]
+  ignore line: [COMPILER_PATH=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6f47' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/collect2 -plugin /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/liblto_plugin.so -plugin-opt=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxlGs1z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f6f47 /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtbegin.o -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1 -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_f6f47.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtend.o /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.4/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccTqHkdO.res] ==> ignore
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/7.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxlGs1z.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--sysroot=/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc] ==> ignore
+    arg [--sysroot=/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-dynamic-linker] ==> ignore
@@ -253,17 +255,17 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6149f] ==> ignore
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> ignore
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> ignore
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtbegin.o] ==> ignore
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4]
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf]
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc]
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib]
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib]
-    arg [-L/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib]
-    arg [CMakeFiles/cmTC_6149f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [cmTC_f6f47] ==> ignore
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> ignore
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> ignore
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtbegin.o] ==> ignore
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1]
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [CMakeFiles/cmTC_f6f47.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -271,36 +273,36 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/crtend.o] ==> ignore
-    arg [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> ignore
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.4]
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf]
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc]
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.4/../../../../arm-linux-gnueabihf/lib] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/lib]
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib]
-  collapse library dir [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/crtend.o] ==> ignore
+    arg [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.3.1]
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc]
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/lib] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.4;/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf;/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/lib/gcc;/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib;/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+  implicit dirs: [/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/7.3.1;/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf;/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/lib/gcc;/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib;/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
   implicit fwks: []
 
 
 
 
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5f445/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5f445.dir/build.make CMakeFiles/cmTC_5f445.dir/build
-make[1]: 进入目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_5f445.dir/feature_tests.cxx.o
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++14 -o CMakeFiles/cmTC_5f445.dir/feature_tests.cxx.o -c /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5f445
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f445.dir/link.txt --verbose=1
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_5f445.dir/feature_tests.cxx.o  -o cmTC_5f445 
-make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_ab8b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab8b3.dir/build.make CMakeFiles/cmTC_ab8b3.dir/build
+make[1]: 进入目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_ab8b3.dir/feature_tests.cxx.o
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++1z -o CMakeFiles/cmTC_ab8b3.dir/feature_tests.cxx.o -c /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ab8b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab8b3.dir/link.txt --verbose=1
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_ab8b3.dir/feature_tests.cxx.o  -o cmTC_ab8b3 
+make[1]: 离开目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
 
 
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
     Feature record: CXX_FEATURE:1cxx_alias_templates
     Feature record: CXX_FEATURE:1cxx_alignas
     Feature record: CXX_FEATURE:1cxx_alignof
@@ -340,7 +342,7 @@ make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTm
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
@@ -354,23 +356,96 @@ make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTm
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
     Feature record: CXX_FEATURE:1cxx_unrestricted_unions
     Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57f41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57f41.dir/build.make CMakeFiles/cmTC_57f41.dir/build
+make[1]: 进入目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_57f41.dir/feature_tests.cxx.o
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++14 -o CMakeFiles/cmTC_57f41.dir/feature_tests.cxx.o -c /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_57f41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57f41.dir/link.txt --verbose=1
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_57f41.dir/feature_tests.cxx.o  -o cmTC_57f41 
+make[1]: 离开目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_71aeb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_71aeb.dir/build.make CMakeFiles/cmTC_71aeb.dir/build
-make[1]: 进入目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_71aeb.dir/feature_tests.cxx.o
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++11 -o CMakeFiles/cmTC_71aeb.dir/feature_tests.cxx.o -c /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_71aeb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71aeb.dir/link.txt --verbose=1
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_71aeb.dir/feature_tests.cxx.o  -o cmTC_71aeb 
-make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_39743/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39743.dir/build.make CMakeFiles/cmTC_39743.dir/build
+make[1]: 进入目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_39743.dir/feature_tests.cxx.o
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++11 -o CMakeFiles/cmTC_39743.dir/feature_tests.cxx.o -c /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_39743
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39743.dir/link.txt --verbose=1
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_39743.dir/feature_tests.cxx.o  -o cmTC_39743 
+make[1]: 离开目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -433,17 +508,17 @@ make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTm
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2a1e0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2a1e0.dir/build.make CMakeFiles/cmTC_2a1e0.dir/build
-make[1]: 进入目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_2a1e0.dir/feature_tests.cxx.o
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++98 -o CMakeFiles/cmTC_2a1e0.dir/feature_tests.cxx.o -c /home/e66/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2a1e0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a1e0.dir/link.txt --verbose=1
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_2a1e0.dir/feature_tests.cxx.o  -o cmTC_2a1e0 
-make[1]: 离开目录“/home/e66/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Run Build Command:"/usr/bin/make" "cmTC_af0e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af0e7.dir/build.make CMakeFiles/cmTC_af0e7.dir/build
+make[1]: 进入目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_af0e7.dir/feature_tests.cxx.o
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++98 -o CMakeFiles/cmTC_af0e7.dir/feature_tests.cxx.o -c /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_af0e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af0e7.dir/link.txt --verbose=1
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_af0e7.dir/feature_tests.cxx.o  -o cmTC_af0e7 
+make[1]: 离开目录“/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/CMakeTmp”
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

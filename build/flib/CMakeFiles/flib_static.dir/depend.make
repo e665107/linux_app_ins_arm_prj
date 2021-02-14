@@ -4,3 +4,6 @@
 flib/CMakeFiles/flib_static.dir/src/delay.c.o: ../flib/inc/delay.h
 flib/CMakeFiles/flib_static.dir/src/delay.c.o: ../flib/src/delay.c
 
+flib/CMakeFiles/flib_static.dir/src/thread_common.c.o: ../flib/inc/thread_common.h
+flib/CMakeFiles/flib_static.dir/src/thread_common.c.o: ../flib/src/thread_common.c
+

@@ -8,7 +8,17 @@
 
 ../flib/inc/delay.h
 
-/home/e66/linux_app_ins_arm_prj/flib/src/delay.c
+../flib/inc/thread_common.h
+pthread.h
+-
+sched.h
+-
+
+/home/e66/git_work/linux_app_ins_arm_prj/flib/src/delay.c
 delay.h
-/home/e66/linux_app_ins_arm_prj/flib/src/delay.h
+/home/e66/git_work/linux_app_ins_arm_prj/flib/src/delay.h
+
+/home/e66/git_work/linux_app_ins_arm_prj/flib/src/thread_common.c
+thread_common.h
+/home/e66/git_work/linux_app_ins_arm_prj/flib/src/thread_common.h
 

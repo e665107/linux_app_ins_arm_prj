@@ -50,10 +50,17 @@
 #include "bsp_ttyusb0.h"
 #endif // MACRO
 
+
+#ifdef BSP_MAX485
+#include "bsp_max485.h"
+#endif // MACRO
+
+
+
 void bsp_init (void)
 {
 #ifdef BSP_LED
-    bsp_led_init(LED0);  /* TEST IO */
+    bsp_led_init();  /* TEST IO */
 #endif // BSP_LED
 #ifdef BSP_IO_TEST
     bsp_led_init(LED2);  /* TEST IO */
@@ -79,7 +86,7 @@ void bsp_init (void)
 #ifdef BSP_USBD_MSC
     bsp_usbd_msc_init();
 #endif // BSP_USB_MSC
-#ifdef BSP_LED
+#ifdef BSP_ETH
     bsp_eth_init(); 
 #endif // BSP_LED
 #ifdef BSP_UART5
@@ -104,6 +111,15 @@ void bsp_init (void)
 #ifdef BSP_TTYUSB0
     bsp_ttyusb0_init();
 #endif // MACRO
+
+#ifdef BSP_MAX485
+    bsp_max485_init();
+#endif // MACRO
+#ifdef BSP_BUZZ
+    bsp_buzz_init();
+#endif // MACRO
+
+    
 }
 
 

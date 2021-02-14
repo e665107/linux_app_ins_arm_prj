@@ -28,10 +28,16 @@
 #endif // 
 #ifdef STRUCTURE_APP
 #include "structures_thread.h"
-#endif // 
+#endif //
+
 #ifdef UART_COMMUNICATION_APP
 #include "uart_thread.h"
 #endif // MACRO
+
+#ifdef LINUX_PERIPHERAL_APP
+#include "max485_thread.h"
+#endif // MACRO
+
 
 void app_init(void)
 {
@@ -82,9 +88,16 @@ void app_init(void)
 #ifdef STRUCTURE_APP
     create_structure_threads();
 #endif // MACRO
+    
 #ifdef UART_COMMUNICATION_APP
     create_uart_threads();
 #endif // MACRO
+
+#ifdef LINUX_PERIPHERAL_APP
+    create_max485_threads(TEST1_THREAD_PRIORITY);
+#endif // MACRO
+
+    
 }
 
 

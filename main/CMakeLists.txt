@@ -16,6 +16,6 @@ add_executable(test_app ${srcs} ${hdrs} ${mainfile})
 
 # target_link_libraries(test_app app_static  bsp_static comlib_static pthread )
 
-target_link_libraries(test_app  flib_static bsp_static app_static pthread)
+target_link_libraries(test_app  pthread  bsp_static app_static  flib_static)
 
 

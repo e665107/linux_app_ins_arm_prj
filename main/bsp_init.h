@@ -62,9 +62,22 @@
 #define BSP_TTYUSB0
 #endif // MACRO
 
+#ifdef LINUX_PERIPHERAL_APP
+#define BSP_MAX485
+#define BSP_LED
+#define BSP_BUZZ
+
+#endif // MACRO
+
+
+
+
 void bsp_init(void);
 
 #endif /* _BSP_INIT_H */
+
+
+
 
 
 

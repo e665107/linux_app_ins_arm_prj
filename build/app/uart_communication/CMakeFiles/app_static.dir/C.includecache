@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../bsp/inc/bsp_ttyusb0.h
+
+/home/e66/git_work/linux_app_ins_arm_prj/app/uart_communication/uart_thread.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+pthread.h
+-
+uart_thread.h
+/home/e66/git_work/linux_app_ins_arm_prj/app/uart_communication/uart_thread.h
+bsp_ttyusb0.h
+/home/e66/git_work/linux_app_ins_arm_prj/app/uart_communication/bsp_ttyusb0.h
+
+/home/e66/git_work/linux_app_ins_arm_prj/app/uart_communication/uart_thread.h
+

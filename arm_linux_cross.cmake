@@ -15,7 +15,8 @@ set (CMAKE_CXX_COMPILER_WORKS 1)
 # set(CMAKE_C_COMPILER  ${tools}/bin/arm-linux-gcc)
 # set(CMAKE_CXX_COMPILER ${tools}/bin/arm-linux-g++)
 
-set(tools "/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf")
+set(tools "/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf")
+
 set(CMAKE_C_COMPILER  ${tools}/bin/arm-linux-gnueabihf-gcc)
 set(CMAKE_CXX_COMPILER ${tools}/bin/arm-linux-gnueabihf-g++)
 

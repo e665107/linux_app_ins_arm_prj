@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/e66/linux_app_ins_arm_prj/bsp/src/bsp_ttyusb0.c" "/home/e66/linux_app_ins_arm_prj/build/bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o"
+  "/home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_buzz.c" "/home/e66/git_work/linux_app_ins_arm_prj/build/bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o"
+  "/home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_led.c" "/home/e66/git_work/linux_app_ins_arm_prj/build/bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o"
+  "/home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_max485.c" "/home/e66/git_work/linux_app_ins_arm_prj/build/bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

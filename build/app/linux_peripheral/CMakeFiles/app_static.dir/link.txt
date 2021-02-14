@@ -1,0 +1,2 @@
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc ../../lib/libapp_static.a  CMakeFiles/app_static.dir/max485_thread.c.o
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib ../../lib/libapp_static.a

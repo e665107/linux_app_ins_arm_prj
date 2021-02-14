@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o"
+  "CMakeFiles/bsp_static.dir/src/bsp_max485.c.o"
+  "CMakeFiles/bsp_static.dir/src/bsp_led.c.o"
+  "CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o"
   "../lib/libbsp_static.pdb"
   "../lib/libbsp_static.a"
 )

@@ -1,2 +1,2 @@
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc ../lib/libbsp_static.a  CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o
-/home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib ../lib/libbsp_static.a
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc ../lib/libbsp_static.a  CMakeFiles/bsp_static.dir/src/bsp_max485.c.o CMakeFiles/bsp_static.dir/src/bsp_led.c.o CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o
+/home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib ../lib/libbsp_static.a

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/e66/linux_app_ins_arm_prj
+CMAKE_SOURCE_DIR = /home/e66/git_work/linux_app_ins_arm_prj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/e66/linux_app_ins_arm_prj/build
+CMAKE_BINARY_DIR = /home/e66/git_work/linux_app_ins_arm_prj/build
 
 # Include any dependencies generated for this target.
 include bsp/CMakeFiles/bsp_static.dir/depend.make
@@ -57,58 +57,112 @@ include bsp/CMakeFiles/bsp_static.dir/progress.make
 # Include the compile flags for this target's objects.
 include bsp/CMakeFiles/bsp_static.dir/flags.make
 
-bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o: bsp/CMakeFiles/bsp_static.dir/flags.make
-bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o: ../bsp/src/bsp_ttyusb0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o"
-	cd /home/e66/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o   -c /home/e66/linux_app_ins_arm_prj/bsp/src/bsp_ttyusb0.c
+bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o: bsp/CMakeFiles/bsp_static.dir/flags.make
+bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o: ../bsp/src/bsp_max485.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bsp_static.dir/src/bsp_max485.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_max485.c
 
-bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.i"
-	cd /home/e66/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/linux_app_ins_arm_prj/bsp/src/bsp_ttyusb0.c > CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.i
+bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bsp_static.dir/src/bsp_max485.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_max485.c > CMakeFiles/bsp_static.dir/src/bsp_max485.c.i
 
-bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.s"
-	cd /home/e66/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-4.9arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/linux_app_ins_arm_prj/bsp/src/bsp_ttyusb0.c -o CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.s
+bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bsp_static.dir/src/bsp_max485.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_max485.c -o CMakeFiles/bsp_static.dir/src/bsp_max485.c.s
 
-bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o.requires:
+bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o.requires:
 
-.PHONY : bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o.requires
+.PHONY : bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o.requires
 
-bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o.provides: bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o.requires
-	$(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o.provides.build
-.PHONY : bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o.provides
+bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o.provides: bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o.requires
+	$(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o.provides.build
+.PHONY : bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o.provides
 
-bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o.provides.build: bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o
+bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o.provides.build: bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o
+
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o: bsp/CMakeFiles/bsp_static.dir/flags.make
+bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o: ../bsp/src/bsp_led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bsp_static.dir/src/bsp_led.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_led.c
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bsp_static.dir/src/bsp_led.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_led.c > CMakeFiles/bsp_static.dir/src/bsp_led.c.i
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bsp_static.dir/src/bsp_led.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_led.c -o CMakeFiles/bsp_static.dir/src/bsp_led.c.s
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o.requires:
+
+.PHONY : bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o.requires
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o.provides: bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o.requires
+	$(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o.provides.build
+.PHONY : bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o.provides
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o.provides.build: bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o
+
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o: bsp/CMakeFiles/bsp_static.dir/flags.make
+bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o: ../bsp/src/bsp_buzz.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_buzz.c
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bsp_static.dir/src/bsp_buzz.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_buzz.c > CMakeFiles/bsp_static.dir/src/bsp_buzz.c.i
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bsp_static.dir/src/bsp_buzz.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/bsp/src/bsp_buzz.c -o CMakeFiles/bsp_static.dir/src/bsp_buzz.c.s
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o.requires:
+
+.PHONY : bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o.requires
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o.provides: bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o.requires
+	$(MAKE) -f bsp/CMakeFiles/bsp_static.dir/build.make bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o.provides.build
+.PHONY : bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o.provides
+
+bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o.provides.build: bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o
 
 
 # Object files for target bsp_static
 bsp_static_OBJECTS = \
-"CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o"
+"CMakeFiles/bsp_static.dir/src/bsp_max485.c.o" \
+"CMakeFiles/bsp_static.dir/src/bsp_led.c.o" \
+"CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o"
 
 # External object files for target bsp_static
 bsp_static_EXTERNAL_OBJECTS =
 
-lib/libbsp_static.a: bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o
+lib/libbsp_static.a: bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o
+lib/libbsp_static.a: bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o
+lib/libbsp_static.a: bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o
 lib/libbsp_static.a: bsp/CMakeFiles/bsp_static.dir/build.make
 lib/libbsp_static.a: bsp/CMakeFiles/bsp_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/e66/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../lib/libbsp_static.a"
-	cd /home/e66/linux_app_ins_arm_prj/build/bsp && $(CMAKE_COMMAND) -P CMakeFiles/bsp_static.dir/cmake_clean_target.cmake
-	cd /home/e66/linux_app_ins_arm_prj/build/bsp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bsp_static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library ../lib/libbsp_static.a"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && $(CMAKE_COMMAND) -P CMakeFiles/bsp_static.dir/cmake_clean_target.cmake
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bsp_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 bsp/CMakeFiles/bsp_static.dir/build: lib/libbsp_static.a
 
 .PHONY : bsp/CMakeFiles/bsp_static.dir/build
 
-bsp/CMakeFiles/bsp_static.dir/requires: bsp/CMakeFiles/bsp_static.dir/src/bsp_ttyusb0.c.o.requires
+bsp/CMakeFiles/bsp_static.dir/requires: bsp/CMakeFiles/bsp_static.dir/src/bsp_max485.c.o.requires
+bsp/CMakeFiles/bsp_static.dir/requires: bsp/CMakeFiles/bsp_static.dir/src/bsp_led.c.o.requires
+bsp/CMakeFiles/bsp_static.dir/requires: bsp/CMakeFiles/bsp_static.dir/src/bsp_buzz.c.o.requires
 
 .PHONY : bsp/CMakeFiles/bsp_static.dir/requires
 
 bsp/CMakeFiles/bsp_static.dir/clean:
-	cd /home/e66/linux_app_ins_arm_prj/build/bsp && $(CMAKE_COMMAND) -P CMakeFiles/bsp_static.dir/cmake_clean.cmake
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/bsp && $(CMAKE_COMMAND) -P CMakeFiles/bsp_static.dir/cmake_clean.cmake
 .PHONY : bsp/CMakeFiles/bsp_static.dir/clean
 
 bsp/CMakeFiles/bsp_static.dir/depend:
-	cd /home/e66/linux_app_ins_arm_prj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e66/linux_app_ins_arm_prj /home/e66/linux_app_ins_arm_prj/bsp /home/e66/linux_app_ins_arm_prj/build /home/e66/linux_app_ins_arm_prj/build/bsp /home/e66/linux_app_ins_arm_prj/build/bsp/CMakeFiles/bsp_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/e66/git_work/linux_app_ins_arm_prj /home/e66/git_work/linux_app_ins_arm_prj/bsp /home/e66/git_work/linux_app_ins_arm_prj/build /home/e66/git_work/linux_app_ins_arm_prj/build/bsp /home/e66/git_work/linux_app_ins_arm_prj/build/bsp/CMakeFiles/bsp_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bsp/CMakeFiles/bsp_static.dir/depend
 
