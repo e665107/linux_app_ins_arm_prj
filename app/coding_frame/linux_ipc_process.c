@@ -1,4 +1,5 @@
 #include "linux_ipc_process.h" 
+#include "bsp_led.h"
 
 #ifdef IPC_PROCESS
 void* thread_send(void *arg)
@@ -11,6 +12,7 @@ void* thread_send(void *arg)
     {
         times_cnt++;
         sleep(2);
+        led_toggle(led_fd);
         printf("times_cnt is %d\n", times_cnt);
     }
 

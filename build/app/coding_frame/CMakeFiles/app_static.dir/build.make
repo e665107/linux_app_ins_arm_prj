@@ -273,9 +273,129 @@ app/coding_frame/CMakeFiles/app_static.dir/fat_fs_store_process.c.o.provides: ap
 app/coding_frame/CMakeFiles/app_static.dir/fat_fs_store_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/fat_fs_store_process.c.o
 
 
+app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o: ../app/coding_frame/hdlc_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/hdlc_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/hdlc_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/hdlc_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/hdlc_process.c > CMakeFiles/app_static.dir/hdlc_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/hdlc_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/hdlc_process.c -o CMakeFiles/app_static.dir/hdlc_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o: ../app/coding_frame/hsm_ins_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/hsm_ins_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/hsm_ins_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/hsm_ins_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/hsm_ins_process.c > CMakeFiles/app_static.dir/hsm_ins_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/hsm_ins_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/hsm_ins_process.c -o CMakeFiles/app_static.dir/hsm_ins_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o: ../app/coding_frame/i2c_expand_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/i2c_expand_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/i2c_expand_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/i2c_expand_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/i2c_expand_process.c > CMakeFiles/app_static.dir/i2c_expand_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/i2c_expand_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/i2c_expand_process.c -o CMakeFiles/app_static.dir/i2c_expand_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o: ../app/coding_frame/irda_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/irda_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/irda_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/irda_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/irda_process.c > CMakeFiles/app_static.dir/irda_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/irda_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/irda_process.c -o CMakeFiles/app_static.dir/irda_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o: ../app/coding_frame/led_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/led_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/led_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/led_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/led_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/led_process.c > CMakeFiles/app_static.dir/led_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/led_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/led_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/led_process.c -o CMakeFiles/app_static.dir/led_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o
+
+
 app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
 app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o: ../app/coding_frame/linux_ipc_process.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o"
 	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/linux_ipc_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/linux_ipc_process.c
 
 app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.i: cmake_force
@@ -297,6 +417,606 @@ app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o.provides: app/c
 app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o
 
 
+app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o: ../app/coding_frame/lvgl_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/lvgl_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/lvgl_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/lvgl_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/lvgl_process.c > CMakeFiles/app_static.dir/lvgl_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/lvgl_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/lvgl_process.c -o CMakeFiles/app_static.dir/lvgl_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o: ../app/coding_frame/max485_thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/max485_thread.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/max485_thread.c
+
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/max485_thread.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/max485_thread.c > CMakeFiles/app_static.dir/max485_thread.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/max485_thread.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/max485_thread.c -o CMakeFiles/app_static.dir/max485_thread.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o: ../app/coding_frame/mqtt_communication_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/mqtt_communication_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/mqtt_communication_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/mqtt_communication_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/mqtt_communication_process.c > CMakeFiles/app_static.dir/mqtt_communication_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/mqtt_communication_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/mqtt_communication_process.c -o CMakeFiles/app_static.dir/mqtt_communication_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o: ../app/coding_frame/music_play_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/music_play_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/music_play_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/music_play_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/music_play_process.c > CMakeFiles/app_static.dir/music_play_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/music_play_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/music_play_process.c -o CMakeFiles/app_static.dir/music_play_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o: ../app/coding_frame/nand_flash_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/nand_flash_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/nand_flash_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/nand_flash_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/nand_flash_process.c > CMakeFiles/app_static.dir/nand_flash_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/nand_flash_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/nand_flash_process.c -o CMakeFiles/app_static.dir/nand_flash_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o: ../app/coding_frame/net_communication_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/net_communication_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/net_communication_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/net_communication_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/net_communication_process.c > CMakeFiles/app_static.dir/net_communication_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/net_communication_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/net_communication_process.c -o CMakeFiles/app_static.dir/net_communication_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o: ../app/coding_frame/normal_storage_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/normal_storage_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/normal_storage_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/normal_storage_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/normal_storage_process.c > CMakeFiles/app_static.dir/normal_storage_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/normal_storage_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/normal_storage_process.c -o CMakeFiles/app_static.dir/normal_storage_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o: ../app/coding_frame/oled_display_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/oled_display_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/oled_display_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/oled_display_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/oled_display_process.c > CMakeFiles/app_static.dir/oled_display_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/oled_display_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/oled_display_process.c -o CMakeFiles/app_static.dir/oled_display_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o: ../app/coding_frame/ota_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/ota_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/ota_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/ota_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/ota_process.c > CMakeFiles/app_static.dir/ota_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/ota_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/ota_process.c -o CMakeFiles/app_static.dir/ota_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o: ../app/coding_frame/periodic_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/periodic_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/periodic_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/periodic_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/periodic_process.c > CMakeFiles/app_static.dir/periodic_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/periodic_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/periodic_process.c -o CMakeFiles/app_static.dir/periodic_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o: ../app/coding_frame/rgb_display_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/rgb_display_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/rgb_display_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/rgb_display_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/rgb_display_process.c > CMakeFiles/app_static.dir/rgb_display_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/rgb_display_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/rgb_display_process.c -o CMakeFiles/app_static.dir/rgb_display_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o: ../app/coding_frame/rtc_time_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/rtc_time_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/rtc_time_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/rtc_time_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/rtc_time_process.c > CMakeFiles/app_static.dir/rtc_time_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/rtc_time_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/rtc_time_process.c -o CMakeFiles/app_static.dir/rtc_time_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o: ../app/coding_frame/sd_card_fat_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/sd_card_fat_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/sd_card_fat_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/sd_card_fat_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/sd_card_fat_process.c > CMakeFiles/app_static.dir/sd_card_fat_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/sd_card_fat_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/sd_card_fat_process.c -o CMakeFiles/app_static.dir/sd_card_fat_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o: ../app/coding_frame/sound_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/sound_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/sound_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/sound_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/sound_process.c > CMakeFiles/app_static.dir/sound_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/sound_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/sound_process.c -o CMakeFiles/app_static.dir/sound_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o: ../app/coding_frame/temprature_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/temprature_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/temprature_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/temprature_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/temprature_process.c > CMakeFiles/app_static.dir/temprature_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/temprature_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/temprature_process.c -o CMakeFiles/app_static.dir/temprature_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o: ../app/coding_frame/tft_display_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/tft_display_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/tft_display_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/tft_display_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/tft_display_process.c > CMakeFiles/app_static.dir/tft_display_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/tft_display_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/tft_display_process.c -o CMakeFiles/app_static.dir/tft_display_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o: ../app/coding_frame/timer_period_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/timer_period_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/timer_period_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/timer_period_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/timer_period_process.c > CMakeFiles/app_static.dir/timer_period_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/timer_period_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/timer_period_process.c -o CMakeFiles/app_static.dir/timer_period_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o: ../app/coding_frame/uart_485_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/uart_485_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_485_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/uart_485_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_485_process.c > CMakeFiles/app_static.dir/uart_485_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/uart_485_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_485_process.c -o CMakeFiles/app_static.dir/uart_485_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o: ../app/coding_frame/uart_blutooth_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/uart_blutooth_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_blutooth_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/uart_blutooth_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_blutooth_process.c > CMakeFiles/app_static.dir/uart_blutooth_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/uart_blutooth_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_blutooth_process.c -o CMakeFiles/app_static.dir/uart_blutooth_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o: ../app/coding_frame/uart_modubus_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/uart_modubus_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_modubus_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/uart_modubus_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_modubus_process.c > CMakeFiles/app_static.dir/uart_modubus_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/uart_modubus_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_modubus_process.c -o CMakeFiles/app_static.dir/uart_modubus_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o: ../app/coding_frame/uart_wifi_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/uart_wifi_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_wifi_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/uart_wifi_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_wifi_process.c > CMakeFiles/app_static.dir/uart_wifi_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/uart_wifi_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_wifi_process.c -o CMakeFiles/app_static.dir/uart_wifi_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o: ../app/coding_frame/uart_zigbee_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/uart_zigbee_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_zigbee_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/uart_zigbee_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_zigbee_process.c > CMakeFiles/app_static.dir/uart_zigbee_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/uart_zigbee_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/uart_zigbee_process.c -o CMakeFiles/app_static.dir/uart_zigbee_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o: ../app/coding_frame/usb_communication_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/usb_communication_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/usb_communication_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/usb_communication_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/usb_communication_process.c > CMakeFiles/app_static.dir/usb_communication_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/usb_communication_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/usb_communication_process.c -o CMakeFiles/app_static.dir/usb_communication_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o: ../app/coding_frame/usb_otg_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/usb_otg_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/usb_otg_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/usb_otg_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/usb_otg_process.c > CMakeFiles/app_static.dir/usb_otg_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/usb_otg_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/usb_otg_process.c -o CMakeFiles/app_static.dir/usb_otg_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o
+
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o: app/coding_frame/CMakeFiles/app_static.dir/flags.make
+app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o: ../app/coding_frame/usb_storage_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/app_static.dir/usb_storage_process.c.o   -c /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/usb_storage_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app_static.dir/usb_storage_process.c.i"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/usb_storage_process.c > CMakeFiles/app_static.dir/usb_storage_process.c.i
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app_static.dir/usb_storage_process.c.s"
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && /home/e66/imx/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/e66/git_work/linux_app_ins_arm_prj/app/coding_frame/usb_storage_process.c -o CMakeFiles/app_static.dir/usb_storage_process.c.s
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o.requires:
+
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o.requires
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o.provides: app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o.requires
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o.provides.build
+.PHONY : app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o.provides
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o.provides.build: app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o
+
+
 # Object files for target app_static
 app_static_OBJECTS = \
 "CMakeFiles/app_static.dir/adc_signal_process.c.o" \
@@ -308,7 +1028,37 @@ app_static_OBJECTS = \
 "CMakeFiles/app_static.dir/coap_com_process.c.o" \
 "CMakeFiles/app_static.dir/coding_frame_creat.c.o" \
 "CMakeFiles/app_static.dir/fat_fs_store_process.c.o" \
-"CMakeFiles/app_static.dir/linux_ipc_process.c.o"
+"CMakeFiles/app_static.dir/hdlc_process.c.o" \
+"CMakeFiles/app_static.dir/hsm_ins_process.c.o" \
+"CMakeFiles/app_static.dir/i2c_expand_process.c.o" \
+"CMakeFiles/app_static.dir/irda_process.c.o" \
+"CMakeFiles/app_static.dir/led_process.c.o" \
+"CMakeFiles/app_static.dir/linux_ipc_process.c.o" \
+"CMakeFiles/app_static.dir/lvgl_process.c.o" \
+"CMakeFiles/app_static.dir/max485_thread.c.o" \
+"CMakeFiles/app_static.dir/mqtt_communication_process.c.o" \
+"CMakeFiles/app_static.dir/music_play_process.c.o" \
+"CMakeFiles/app_static.dir/nand_flash_process.c.o" \
+"CMakeFiles/app_static.dir/net_communication_process.c.o" \
+"CMakeFiles/app_static.dir/normal_storage_process.c.o" \
+"CMakeFiles/app_static.dir/oled_display_process.c.o" \
+"CMakeFiles/app_static.dir/ota_process.c.o" \
+"CMakeFiles/app_static.dir/periodic_process.c.o" \
+"CMakeFiles/app_static.dir/rgb_display_process.c.o" \
+"CMakeFiles/app_static.dir/rtc_time_process.c.o" \
+"CMakeFiles/app_static.dir/sd_card_fat_process.c.o" \
+"CMakeFiles/app_static.dir/sound_process.c.o" \
+"CMakeFiles/app_static.dir/temprature_process.c.o" \
+"CMakeFiles/app_static.dir/tft_display_process.c.o" \
+"CMakeFiles/app_static.dir/timer_period_process.c.o" \
+"CMakeFiles/app_static.dir/uart_485_process.c.o" \
+"CMakeFiles/app_static.dir/uart_blutooth_process.c.o" \
+"CMakeFiles/app_static.dir/uart_modubus_process.c.o" \
+"CMakeFiles/app_static.dir/uart_wifi_process.c.o" \
+"CMakeFiles/app_static.dir/uart_zigbee_process.c.o" \
+"CMakeFiles/app_static.dir/usb_communication_process.c.o" \
+"CMakeFiles/app_static.dir/usb_otg_process.c.o" \
+"CMakeFiles/app_static.dir/usb_storage_process.c.o"
 
 # External object files for target app_static
 app_static_EXTERNAL_OBJECTS =
@@ -322,10 +1072,40 @@ lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/can_process.c.o
 lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/coap_com_process.c.o
 lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/coding_frame_creat.c.o
 lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/fat_fs_store_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o
 lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o
+lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o
 lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/build.make
 lib/libapp_static.a: app/coding_frame/CMakeFiles/app_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library ../../lib/libapp_static.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking C static library ../../lib/libapp_static.a"
 	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && $(CMAKE_COMMAND) -P CMakeFiles/app_static.dir/cmake_clean_target.cmake
 	cd /home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app_static.dir/link.txt --verbose=$(VERBOSE)
 
@@ -343,7 +1123,37 @@ app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles
 app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/coap_com_process.c.o.requires
 app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/coding_frame_creat.c.o.requires
 app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/fat_fs_store_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o.requires
 app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o.requires
+app/coding_frame/CMakeFiles/app_static.dir/requires: app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o.requires
 
 .PHONY : app/coding_frame/CMakeFiles/app_static.dir/requires
 

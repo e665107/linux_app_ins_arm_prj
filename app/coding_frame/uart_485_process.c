@@ -1,3 +1,7 @@
+#ifdef UART_485_PROCESS
+
+
+
 /* os */
 #include "FreeRTOS.h"
 #include "task.h"
@@ -62,7 +66,7 @@ static void uart_485_process_task(void *parameter)
     }
 }
 
-
+#endif /* UART_485_PROCESS_H */
 
 
 

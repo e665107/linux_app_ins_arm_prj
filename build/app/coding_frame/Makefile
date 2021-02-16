@@ -368,6 +368,141 @@ fat_fs_store_process.c.s:
 	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/fat_fs_store_process.c.s
 .PHONY : fat_fs_store_process.c.s
 
+hdlc_process.o: hdlc_process.c.o
+
+.PHONY : hdlc_process.o
+
+# target to build an object file
+hdlc_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o
+.PHONY : hdlc_process.c.o
+
+hdlc_process.i: hdlc_process.c.i
+
+.PHONY : hdlc_process.i
+
+# target to preprocess a source file
+hdlc_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.i
+.PHONY : hdlc_process.c.i
+
+hdlc_process.s: hdlc_process.c.s
+
+.PHONY : hdlc_process.s
+
+# target to generate assembly for a file
+hdlc_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.s
+.PHONY : hdlc_process.c.s
+
+hsm_ins_process.o: hsm_ins_process.c.o
+
+.PHONY : hsm_ins_process.o
+
+# target to build an object file
+hsm_ins_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o
+.PHONY : hsm_ins_process.c.o
+
+hsm_ins_process.i: hsm_ins_process.c.i
+
+.PHONY : hsm_ins_process.i
+
+# target to preprocess a source file
+hsm_ins_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.i
+.PHONY : hsm_ins_process.c.i
+
+hsm_ins_process.s: hsm_ins_process.c.s
+
+.PHONY : hsm_ins_process.s
+
+# target to generate assembly for a file
+hsm_ins_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.s
+.PHONY : hsm_ins_process.c.s
+
+i2c_expand_process.o: i2c_expand_process.c.o
+
+.PHONY : i2c_expand_process.o
+
+# target to build an object file
+i2c_expand_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o
+.PHONY : i2c_expand_process.c.o
+
+i2c_expand_process.i: i2c_expand_process.c.i
+
+.PHONY : i2c_expand_process.i
+
+# target to preprocess a source file
+i2c_expand_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.i
+.PHONY : i2c_expand_process.c.i
+
+i2c_expand_process.s: i2c_expand_process.c.s
+
+.PHONY : i2c_expand_process.s
+
+# target to generate assembly for a file
+i2c_expand_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.s
+.PHONY : i2c_expand_process.c.s
+
+irda_process.o: irda_process.c.o
+
+.PHONY : irda_process.o
+
+# target to build an object file
+irda_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o
+.PHONY : irda_process.c.o
+
+irda_process.i: irda_process.c.i
+
+.PHONY : irda_process.i
+
+# target to preprocess a source file
+irda_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.i
+.PHONY : irda_process.c.i
+
+irda_process.s: irda_process.c.s
+
+.PHONY : irda_process.s
+
+# target to generate assembly for a file
+irda_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.s
+.PHONY : irda_process.c.s
+
+led_process.o: led_process.c.o
+
+.PHONY : led_process.o
+
+# target to build an object file
+led_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o
+.PHONY : led_process.c.o
+
+led_process.i: led_process.c.i
+
+.PHONY : led_process.i
+
+# target to preprocess a source file
+led_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/led_process.c.i
+.PHONY : led_process.c.i
+
+led_process.s: led_process.c.s
+
+.PHONY : led_process.s
+
+# target to generate assembly for a file
+led_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/led_process.c.s
+.PHONY : led_process.c.s
+
 linux_ipc_process.o: linux_ipc_process.c.o
 
 .PHONY : linux_ipc_process.o
@@ -394,6 +529,681 @@ linux_ipc_process.s: linux_ipc_process.c.s
 linux_ipc_process.c.s:
 	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.s
 .PHONY : linux_ipc_process.c.s
+
+lvgl_process.o: lvgl_process.c.o
+
+.PHONY : lvgl_process.o
+
+# target to build an object file
+lvgl_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o
+.PHONY : lvgl_process.c.o
+
+lvgl_process.i: lvgl_process.c.i
+
+.PHONY : lvgl_process.i
+
+# target to preprocess a source file
+lvgl_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.i
+.PHONY : lvgl_process.c.i
+
+lvgl_process.s: lvgl_process.c.s
+
+.PHONY : lvgl_process.s
+
+# target to generate assembly for a file
+lvgl_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.s
+.PHONY : lvgl_process.c.s
+
+max485_thread.o: max485_thread.c.o
+
+.PHONY : max485_thread.o
+
+# target to build an object file
+max485_thread.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o
+.PHONY : max485_thread.c.o
+
+max485_thread.i: max485_thread.c.i
+
+.PHONY : max485_thread.i
+
+# target to preprocess a source file
+max485_thread.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.i
+.PHONY : max485_thread.c.i
+
+max485_thread.s: max485_thread.c.s
+
+.PHONY : max485_thread.s
+
+# target to generate assembly for a file
+max485_thread.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.s
+.PHONY : max485_thread.c.s
+
+mqtt_communication_process.o: mqtt_communication_process.c.o
+
+.PHONY : mqtt_communication_process.o
+
+# target to build an object file
+mqtt_communication_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o
+.PHONY : mqtt_communication_process.c.o
+
+mqtt_communication_process.i: mqtt_communication_process.c.i
+
+.PHONY : mqtt_communication_process.i
+
+# target to preprocess a source file
+mqtt_communication_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.i
+.PHONY : mqtt_communication_process.c.i
+
+mqtt_communication_process.s: mqtt_communication_process.c.s
+
+.PHONY : mqtt_communication_process.s
+
+# target to generate assembly for a file
+mqtt_communication_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.s
+.PHONY : mqtt_communication_process.c.s
+
+music_play_process.o: music_play_process.c.o
+
+.PHONY : music_play_process.o
+
+# target to build an object file
+music_play_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o
+.PHONY : music_play_process.c.o
+
+music_play_process.i: music_play_process.c.i
+
+.PHONY : music_play_process.i
+
+# target to preprocess a source file
+music_play_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.i
+.PHONY : music_play_process.c.i
+
+music_play_process.s: music_play_process.c.s
+
+.PHONY : music_play_process.s
+
+# target to generate assembly for a file
+music_play_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.s
+.PHONY : music_play_process.c.s
+
+nand_flash_process.o: nand_flash_process.c.o
+
+.PHONY : nand_flash_process.o
+
+# target to build an object file
+nand_flash_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o
+.PHONY : nand_flash_process.c.o
+
+nand_flash_process.i: nand_flash_process.c.i
+
+.PHONY : nand_flash_process.i
+
+# target to preprocess a source file
+nand_flash_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.i
+.PHONY : nand_flash_process.c.i
+
+nand_flash_process.s: nand_flash_process.c.s
+
+.PHONY : nand_flash_process.s
+
+# target to generate assembly for a file
+nand_flash_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.s
+.PHONY : nand_flash_process.c.s
+
+net_communication_process.o: net_communication_process.c.o
+
+.PHONY : net_communication_process.o
+
+# target to build an object file
+net_communication_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o
+.PHONY : net_communication_process.c.o
+
+net_communication_process.i: net_communication_process.c.i
+
+.PHONY : net_communication_process.i
+
+# target to preprocess a source file
+net_communication_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.i
+.PHONY : net_communication_process.c.i
+
+net_communication_process.s: net_communication_process.c.s
+
+.PHONY : net_communication_process.s
+
+# target to generate assembly for a file
+net_communication_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.s
+.PHONY : net_communication_process.c.s
+
+normal_storage_process.o: normal_storage_process.c.o
+
+.PHONY : normal_storage_process.o
+
+# target to build an object file
+normal_storage_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o
+.PHONY : normal_storage_process.c.o
+
+normal_storage_process.i: normal_storage_process.c.i
+
+.PHONY : normal_storage_process.i
+
+# target to preprocess a source file
+normal_storage_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.i
+.PHONY : normal_storage_process.c.i
+
+normal_storage_process.s: normal_storage_process.c.s
+
+.PHONY : normal_storage_process.s
+
+# target to generate assembly for a file
+normal_storage_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.s
+.PHONY : normal_storage_process.c.s
+
+oled_display_process.o: oled_display_process.c.o
+
+.PHONY : oled_display_process.o
+
+# target to build an object file
+oled_display_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o
+.PHONY : oled_display_process.c.o
+
+oled_display_process.i: oled_display_process.c.i
+
+.PHONY : oled_display_process.i
+
+# target to preprocess a source file
+oled_display_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.i
+.PHONY : oled_display_process.c.i
+
+oled_display_process.s: oled_display_process.c.s
+
+.PHONY : oled_display_process.s
+
+# target to generate assembly for a file
+oled_display_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.s
+.PHONY : oled_display_process.c.s
+
+ota_process.o: ota_process.c.o
+
+.PHONY : ota_process.o
+
+# target to build an object file
+ota_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o
+.PHONY : ota_process.c.o
+
+ota_process.i: ota_process.c.i
+
+.PHONY : ota_process.i
+
+# target to preprocess a source file
+ota_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.i
+.PHONY : ota_process.c.i
+
+ota_process.s: ota_process.c.s
+
+.PHONY : ota_process.s
+
+# target to generate assembly for a file
+ota_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.s
+.PHONY : ota_process.c.s
+
+periodic_process.o: periodic_process.c.o
+
+.PHONY : periodic_process.o
+
+# target to build an object file
+periodic_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o
+.PHONY : periodic_process.c.o
+
+periodic_process.i: periodic_process.c.i
+
+.PHONY : periodic_process.i
+
+# target to preprocess a source file
+periodic_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.i
+.PHONY : periodic_process.c.i
+
+periodic_process.s: periodic_process.c.s
+
+.PHONY : periodic_process.s
+
+# target to generate assembly for a file
+periodic_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.s
+.PHONY : periodic_process.c.s
+
+rgb_display_process.o: rgb_display_process.c.o
+
+.PHONY : rgb_display_process.o
+
+# target to build an object file
+rgb_display_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o
+.PHONY : rgb_display_process.c.o
+
+rgb_display_process.i: rgb_display_process.c.i
+
+.PHONY : rgb_display_process.i
+
+# target to preprocess a source file
+rgb_display_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.i
+.PHONY : rgb_display_process.c.i
+
+rgb_display_process.s: rgb_display_process.c.s
+
+.PHONY : rgb_display_process.s
+
+# target to generate assembly for a file
+rgb_display_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.s
+.PHONY : rgb_display_process.c.s
+
+rtc_time_process.o: rtc_time_process.c.o
+
+.PHONY : rtc_time_process.o
+
+# target to build an object file
+rtc_time_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o
+.PHONY : rtc_time_process.c.o
+
+rtc_time_process.i: rtc_time_process.c.i
+
+.PHONY : rtc_time_process.i
+
+# target to preprocess a source file
+rtc_time_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.i
+.PHONY : rtc_time_process.c.i
+
+rtc_time_process.s: rtc_time_process.c.s
+
+.PHONY : rtc_time_process.s
+
+# target to generate assembly for a file
+rtc_time_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.s
+.PHONY : rtc_time_process.c.s
+
+sd_card_fat_process.o: sd_card_fat_process.c.o
+
+.PHONY : sd_card_fat_process.o
+
+# target to build an object file
+sd_card_fat_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o
+.PHONY : sd_card_fat_process.c.o
+
+sd_card_fat_process.i: sd_card_fat_process.c.i
+
+.PHONY : sd_card_fat_process.i
+
+# target to preprocess a source file
+sd_card_fat_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.i
+.PHONY : sd_card_fat_process.c.i
+
+sd_card_fat_process.s: sd_card_fat_process.c.s
+
+.PHONY : sd_card_fat_process.s
+
+# target to generate assembly for a file
+sd_card_fat_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.s
+.PHONY : sd_card_fat_process.c.s
+
+sound_process.o: sound_process.c.o
+
+.PHONY : sound_process.o
+
+# target to build an object file
+sound_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o
+.PHONY : sound_process.c.o
+
+sound_process.i: sound_process.c.i
+
+.PHONY : sound_process.i
+
+# target to preprocess a source file
+sound_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.i
+.PHONY : sound_process.c.i
+
+sound_process.s: sound_process.c.s
+
+.PHONY : sound_process.s
+
+# target to generate assembly for a file
+sound_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.s
+.PHONY : sound_process.c.s
+
+temprature_process.o: temprature_process.c.o
+
+.PHONY : temprature_process.o
+
+# target to build an object file
+temprature_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o
+.PHONY : temprature_process.c.o
+
+temprature_process.i: temprature_process.c.i
+
+.PHONY : temprature_process.i
+
+# target to preprocess a source file
+temprature_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.i
+.PHONY : temprature_process.c.i
+
+temprature_process.s: temprature_process.c.s
+
+.PHONY : temprature_process.s
+
+# target to generate assembly for a file
+temprature_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.s
+.PHONY : temprature_process.c.s
+
+tft_display_process.o: tft_display_process.c.o
+
+.PHONY : tft_display_process.o
+
+# target to build an object file
+tft_display_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o
+.PHONY : tft_display_process.c.o
+
+tft_display_process.i: tft_display_process.c.i
+
+.PHONY : tft_display_process.i
+
+# target to preprocess a source file
+tft_display_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.i
+.PHONY : tft_display_process.c.i
+
+tft_display_process.s: tft_display_process.c.s
+
+.PHONY : tft_display_process.s
+
+# target to generate assembly for a file
+tft_display_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.s
+.PHONY : tft_display_process.c.s
+
+timer_period_process.o: timer_period_process.c.o
+
+.PHONY : timer_period_process.o
+
+# target to build an object file
+timer_period_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o
+.PHONY : timer_period_process.c.o
+
+timer_period_process.i: timer_period_process.c.i
+
+.PHONY : timer_period_process.i
+
+# target to preprocess a source file
+timer_period_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.i
+.PHONY : timer_period_process.c.i
+
+timer_period_process.s: timer_period_process.c.s
+
+.PHONY : timer_period_process.s
+
+# target to generate assembly for a file
+timer_period_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.s
+.PHONY : timer_period_process.c.s
+
+uart_485_process.o: uart_485_process.c.o
+
+.PHONY : uart_485_process.o
+
+# target to build an object file
+uart_485_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o
+.PHONY : uart_485_process.c.o
+
+uart_485_process.i: uart_485_process.c.i
+
+.PHONY : uart_485_process.i
+
+# target to preprocess a source file
+uart_485_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.i
+.PHONY : uart_485_process.c.i
+
+uart_485_process.s: uart_485_process.c.s
+
+.PHONY : uart_485_process.s
+
+# target to generate assembly for a file
+uart_485_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.s
+.PHONY : uart_485_process.c.s
+
+uart_blutooth_process.o: uart_blutooth_process.c.o
+
+.PHONY : uart_blutooth_process.o
+
+# target to build an object file
+uart_blutooth_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o
+.PHONY : uart_blutooth_process.c.o
+
+uart_blutooth_process.i: uart_blutooth_process.c.i
+
+.PHONY : uart_blutooth_process.i
+
+# target to preprocess a source file
+uart_blutooth_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.i
+.PHONY : uart_blutooth_process.c.i
+
+uart_blutooth_process.s: uart_blutooth_process.c.s
+
+.PHONY : uart_blutooth_process.s
+
+# target to generate assembly for a file
+uart_blutooth_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.s
+.PHONY : uart_blutooth_process.c.s
+
+uart_modubus_process.o: uart_modubus_process.c.o
+
+.PHONY : uart_modubus_process.o
+
+# target to build an object file
+uart_modubus_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o
+.PHONY : uart_modubus_process.c.o
+
+uart_modubus_process.i: uart_modubus_process.c.i
+
+.PHONY : uart_modubus_process.i
+
+# target to preprocess a source file
+uart_modubus_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.i
+.PHONY : uart_modubus_process.c.i
+
+uart_modubus_process.s: uart_modubus_process.c.s
+
+.PHONY : uart_modubus_process.s
+
+# target to generate assembly for a file
+uart_modubus_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.s
+.PHONY : uart_modubus_process.c.s
+
+uart_wifi_process.o: uart_wifi_process.c.o
+
+.PHONY : uart_wifi_process.o
+
+# target to build an object file
+uart_wifi_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o
+.PHONY : uart_wifi_process.c.o
+
+uart_wifi_process.i: uart_wifi_process.c.i
+
+.PHONY : uart_wifi_process.i
+
+# target to preprocess a source file
+uart_wifi_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.i
+.PHONY : uart_wifi_process.c.i
+
+uart_wifi_process.s: uart_wifi_process.c.s
+
+.PHONY : uart_wifi_process.s
+
+# target to generate assembly for a file
+uart_wifi_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.s
+.PHONY : uart_wifi_process.c.s
+
+uart_zigbee_process.o: uart_zigbee_process.c.o
+
+.PHONY : uart_zigbee_process.o
+
+# target to build an object file
+uart_zigbee_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o
+.PHONY : uart_zigbee_process.c.o
+
+uart_zigbee_process.i: uart_zigbee_process.c.i
+
+.PHONY : uart_zigbee_process.i
+
+# target to preprocess a source file
+uart_zigbee_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.i
+.PHONY : uart_zigbee_process.c.i
+
+uart_zigbee_process.s: uart_zigbee_process.c.s
+
+.PHONY : uart_zigbee_process.s
+
+# target to generate assembly for a file
+uart_zigbee_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.s
+.PHONY : uart_zigbee_process.c.s
+
+usb_communication_process.o: usb_communication_process.c.o
+
+.PHONY : usb_communication_process.o
+
+# target to build an object file
+usb_communication_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o
+.PHONY : usb_communication_process.c.o
+
+usb_communication_process.i: usb_communication_process.c.i
+
+.PHONY : usb_communication_process.i
+
+# target to preprocess a source file
+usb_communication_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.i
+.PHONY : usb_communication_process.c.i
+
+usb_communication_process.s: usb_communication_process.c.s
+
+.PHONY : usb_communication_process.s
+
+# target to generate assembly for a file
+usb_communication_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.s
+.PHONY : usb_communication_process.c.s
+
+usb_otg_process.o: usb_otg_process.c.o
+
+.PHONY : usb_otg_process.o
+
+# target to build an object file
+usb_otg_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o
+.PHONY : usb_otg_process.c.o
+
+usb_otg_process.i: usb_otg_process.c.i
+
+.PHONY : usb_otg_process.i
+
+# target to preprocess a source file
+usb_otg_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.i
+.PHONY : usb_otg_process.c.i
+
+usb_otg_process.s: usb_otg_process.c.s
+
+.PHONY : usb_otg_process.s
+
+# target to generate assembly for a file
+usb_otg_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.s
+.PHONY : usb_otg_process.c.s
+
+usb_storage_process.o: usb_storage_process.c.o
+
+.PHONY : usb_storage_process.o
+
+# target to build an object file
+usb_storage_process.c.o:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o
+.PHONY : usb_storage_process.c.o
+
+usb_storage_process.i: usb_storage_process.c.i
+
+.PHONY : usb_storage_process.i
+
+# target to preprocess a source file
+usb_storage_process.c.i:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.i
+.PHONY : usb_storage_process.c.i
+
+usb_storage_process.s: usb_storage_process.c.s
+
+.PHONY : usb_storage_process.s
+
+# target to generate assembly for a file
+usb_storage_process.c.s:
+	cd /home/e66/git_work/linux_app_ins_arm_prj/build && $(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.s
+.PHONY : usb_storage_process.c.s
 
 # Help Target
 help:
@@ -431,9 +1241,99 @@ help:
 	@echo "... fat_fs_store_process.o"
 	@echo "... fat_fs_store_process.i"
 	@echo "... fat_fs_store_process.s"
+	@echo "... hdlc_process.o"
+	@echo "... hdlc_process.i"
+	@echo "... hdlc_process.s"
+	@echo "... hsm_ins_process.o"
+	@echo "... hsm_ins_process.i"
+	@echo "... hsm_ins_process.s"
+	@echo "... i2c_expand_process.o"
+	@echo "... i2c_expand_process.i"
+	@echo "... i2c_expand_process.s"
+	@echo "... irda_process.o"
+	@echo "... irda_process.i"
+	@echo "... irda_process.s"
+	@echo "... led_process.o"
+	@echo "... led_process.i"
+	@echo "... led_process.s"
 	@echo "... linux_ipc_process.o"
 	@echo "... linux_ipc_process.i"
 	@echo "... linux_ipc_process.s"
+	@echo "... lvgl_process.o"
+	@echo "... lvgl_process.i"
+	@echo "... lvgl_process.s"
+	@echo "... max485_thread.o"
+	@echo "... max485_thread.i"
+	@echo "... max485_thread.s"
+	@echo "... mqtt_communication_process.o"
+	@echo "... mqtt_communication_process.i"
+	@echo "... mqtt_communication_process.s"
+	@echo "... music_play_process.o"
+	@echo "... music_play_process.i"
+	@echo "... music_play_process.s"
+	@echo "... nand_flash_process.o"
+	@echo "... nand_flash_process.i"
+	@echo "... nand_flash_process.s"
+	@echo "... net_communication_process.o"
+	@echo "... net_communication_process.i"
+	@echo "... net_communication_process.s"
+	@echo "... normal_storage_process.o"
+	@echo "... normal_storage_process.i"
+	@echo "... normal_storage_process.s"
+	@echo "... oled_display_process.o"
+	@echo "... oled_display_process.i"
+	@echo "... oled_display_process.s"
+	@echo "... ota_process.o"
+	@echo "... ota_process.i"
+	@echo "... ota_process.s"
+	@echo "... periodic_process.o"
+	@echo "... periodic_process.i"
+	@echo "... periodic_process.s"
+	@echo "... rgb_display_process.o"
+	@echo "... rgb_display_process.i"
+	@echo "... rgb_display_process.s"
+	@echo "... rtc_time_process.o"
+	@echo "... rtc_time_process.i"
+	@echo "... rtc_time_process.s"
+	@echo "... sd_card_fat_process.o"
+	@echo "... sd_card_fat_process.i"
+	@echo "... sd_card_fat_process.s"
+	@echo "... sound_process.o"
+	@echo "... sound_process.i"
+	@echo "... sound_process.s"
+	@echo "... temprature_process.o"
+	@echo "... temprature_process.i"
+	@echo "... temprature_process.s"
+	@echo "... tft_display_process.o"
+	@echo "... tft_display_process.i"
+	@echo "... tft_display_process.s"
+	@echo "... timer_period_process.o"
+	@echo "... timer_period_process.i"
+	@echo "... timer_period_process.s"
+	@echo "... uart_485_process.o"
+	@echo "... uart_485_process.i"
+	@echo "... uart_485_process.s"
+	@echo "... uart_blutooth_process.o"
+	@echo "... uart_blutooth_process.i"
+	@echo "... uart_blutooth_process.s"
+	@echo "... uart_modubus_process.o"
+	@echo "... uart_modubus_process.i"
+	@echo "... uart_modubus_process.s"
+	@echo "... uart_wifi_process.o"
+	@echo "... uart_wifi_process.i"
+	@echo "... uart_wifi_process.s"
+	@echo "... uart_zigbee_process.o"
+	@echo "... uart_zigbee_process.i"
+	@echo "... uart_zigbee_process.s"
+	@echo "... usb_communication_process.o"
+	@echo "... usb_communication_process.i"
+	@echo "... usb_communication_process.s"
+	@echo "... usb_otg_process.o"
+	@echo "... usb_otg_process.i"
+	@echo "... usb_otg_process.s"
+	@echo "... usb_storage_process.o"
+	@echo "... usb_storage_process.i"
+	@echo "... usb_storage_process.s"
 .PHONY : help
 
 

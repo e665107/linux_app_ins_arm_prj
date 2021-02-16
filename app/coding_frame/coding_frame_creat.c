@@ -63,7 +63,7 @@ void coding_frame_task_create()
 
 
 #ifdef IPC_PROCESS
-    create_ipc_threads(TEST1_TASK_PRIORITY);
+    create_ipc_threads(TEST1_THREAD_PRIORITY);
 
 #endif // MACRO
 }

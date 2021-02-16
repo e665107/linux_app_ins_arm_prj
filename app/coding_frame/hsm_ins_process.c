@@ -1,3 +1,4 @@
+#ifdef HSM_INS_PROCESS
 /* os */
 #include "FreeRTOS.h"
 #include "task.h"
@@ -507,7 +508,7 @@ QState QHsmTst_mov_sub_1_two(QHsmTst *me)
     return Q_SUPER(&QHsmTst_MOVING_two);
 }
 
-
+#endif
 
 
 

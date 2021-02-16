@@ -1,3 +1,7 @@
+#ifdef TIMER_PERIOD_PROCESS
+
+
+
 /* os */
 #include "FreeRTOS.h"
 #include "task.h"
@@ -63,6 +67,7 @@ static void timer_period_process_task(void *parameter)
         time_cnt_temp++;
     }
 }
+#endif /* TIMER_PERIOD_PROCESS_H */
 
 
 

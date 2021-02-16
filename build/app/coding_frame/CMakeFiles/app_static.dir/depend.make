@@ -28,9 +28,80 @@ app/coding_frame/CMakeFiles/app_static.dir/coding_frame_creat.c.o: ../app/coding
 
 app/coding_frame/CMakeFiles/app_static.dir/fat_fs_store_process.c.o: ../app/coding_frame/fat_fs_store_process.c
 
+app/coding_frame/CMakeFiles/app_static.dir/hdlc_process.c.o: ../app/coding_frame/hdlc_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o: ../app/coding_frame/hsm_ins_process.c
+app/coding_frame/CMakeFiles/app_static.dir/hsm_ins_process.c.o: ../app/coding_frame/hsm_ins_process.h
+
+app/coding_frame/CMakeFiles/app_static.dir/i2c_expand_process.c.o: ../app/coding_frame/i2c_expand_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/irda_process.c.o: ../app/coding_frame/irda_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/led_process.c.o: ../app/coding_frame/led_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o: ../bsp/inc/bsp_led.h
 app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o: ../flib/inc/thread_common.h
 app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o: ../main/app_config.h
 app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o: ../app/coding_frame/coding_frame_creat.h
 app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o: ../app/coding_frame/linux_ipc_process.c
 app/coding_frame/CMakeFiles/app_static.dir/linux_ipc_process.c.o: ../app/coding_frame/linux_ipc_process.h
+
+app/coding_frame/CMakeFiles/app_static.dir/lvgl_process.c.o: ../app/coding_frame/lvgl_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o: ../bsp/inc/bsp_buzz.h
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o: ../bsp/inc/bsp_hal.h
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o: ../bsp/inc/bsp_led.h
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o: ../bsp/inc/bsp_max485.h
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o: ../flib/inc/delay.h
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o: ../flib/inc/thread_common.h
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o: ../app/coding_frame/max485_thread.c
+app/coding_frame/CMakeFiles/app_static.dir/max485_thread.c.o: ../app/coding_frame/max485_thread.h
+
+app/coding_frame/CMakeFiles/app_static.dir/mqtt_communication_process.c.o: ../app/coding_frame/mqtt_communication_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/music_play_process.c.o: ../app/coding_frame/music_play_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/nand_flash_process.c.o: ../app/coding_frame/nand_flash_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/net_communication_process.c.o: ../app/coding_frame/net_communication_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/normal_storage_process.c.o: ../app/coding_frame/normal_storage_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/oled_display_process.c.o: ../app/coding_frame/oled_display_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/ota_process.c.o: ../app/coding_frame/ota_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/periodic_process.c.o: ../app/coding_frame/periodic_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/rgb_display_process.c.o: ../app/coding_frame/rgb_display_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/rtc_time_process.c.o: ../app/coding_frame/rtc_time_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/sd_card_fat_process.c.o: ../app/coding_frame/sd_card_fat_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/sound_process.c.o: ../app/coding_frame/sound_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/temprature_process.c.o: ../app/coding_frame/temprature_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/tft_display_process.c.o: ../app/coding_frame/tft_display_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o: ../app/coding_frame/timer_period_process.c
+app/coding_frame/CMakeFiles/app_static.dir/timer_period_process.c.o: ../app/coding_frame/timer_period_process.h
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o: ../app/coding_frame/uart_485_process.c
+app/coding_frame/CMakeFiles/app_static.dir/uart_485_process.c.o: ../app/coding_frame/uart_485_process.h
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_blutooth_process.c.o: ../app/coding_frame/uart_blutooth_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_modubus_process.c.o: ../app/coding_frame/uart_modubus_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_wifi_process.c.o: ../app/coding_frame/uart_wifi_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/uart_zigbee_process.c.o: ../app/coding_frame/uart_zigbee_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_communication_process.c.o: ../app/coding_frame/usb_communication_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_otg_process.c.o: ../app/coding_frame/usb_otg_process.c
+
+app/coding_frame/CMakeFiles/app_static.dir/usb_storage_process.c.o: ../app/coding_frame/usb_storage_process.c
 
