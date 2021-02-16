@@ -14,13 +14,16 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../bsp/inc"
   "../flib/inc"
-  "../app/linux_peripheral"
+  "../main"
+  "../app/coding_frame"
+  "../app/coding_frame/function"
+  "../app/coding_frame/intrrupts"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/e66/git_work/linux_app_ins_arm_prj/build/bsp/CMakeFiles/bsp_static.dir/DependInfo.cmake"
-  "/home/e66/git_work/linux_app_ins_arm_prj/build/app/linux_peripheral/CMakeFiles/app_static.dir/DependInfo.cmake"
+  "/home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame/CMakeFiles/app_static.dir/DependInfo.cmake"
   "/home/e66/git_work/linux_app_ins_arm_prj/build/flib/CMakeFiles/flib_static.dir/DependInfo.cmake"
   )
 

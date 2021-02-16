@@ -36,7 +36,8 @@ project(test)
 set(HELLO_WORLD_APP 0)
 set(STRUCTURE_APP 0)
 set(UART_COMMUNICATION_APP 0)
-set(LINUX_PERIPHERAL_APP 1)
+set(LINUX_PERIPHERAL_APP 0)
+set(CODING_FRAME_APP 1)
 
 
 set(TEST_2 0)
@@ -52,6 +53,8 @@ include_directories(
   # ${PROJECT_SOURCE_DIR}/app
   ${PROJECT_SOURCE_DIR}/bsp/inc
   ${PROJECT_SOURCE_DIR}/flib/inc
+  ${PROJECT_SOURCE_DIR}/main
+
   # /usr/local/include
   # /usr/include
   

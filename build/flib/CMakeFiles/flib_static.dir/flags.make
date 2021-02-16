@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/e66/git_work/linux_app_ins_arm_prj/bsp/inc -I/home/e66/git_work/linux_app_ins_arm_prj/flib/inc 
+C_INCLUDES = -I/home/e66/git_work/linux_app_ins_arm_prj/bsp/inc -I/home/e66/git_work/linux_app_ins_arm_prj/flib/inc -I/home/e66/git_work/linux_app_ins_arm_prj/main 
 

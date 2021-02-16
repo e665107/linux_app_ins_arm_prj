@@ -649,7 +649,6 @@ static int pthread_arg_f()
 
     printf("result from thd: %d\n", (int)(res));
 
-
     return 0;
 }
 

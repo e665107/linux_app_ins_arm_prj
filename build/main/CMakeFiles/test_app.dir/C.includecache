@@ -6,13 +6,33 @@
 
 #IncludeRegexTransform: 
 
-../app/linux_peripheral/max485_thread.h
+../app/coding_frame/coding_frame_creat.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+pthread.h
+-
+string.h
+-
+app_config.h
+../app/coding_frame/app_config.h
+thread_common.h
+../app/coding_frame/thread_common.h
 
 ../bsp/inc/bsp_led.h
 
 ../bsp/inc/bsp_max485.h
 
 ../bsp/inc/bsp_ttyusb0.h
+
+../flib/inc/thread_common.h
+pthread.h
+-
+sched.h
+-
 
 /home/e66/git_work/linux_app_ins_arm_prj/main/app_config.h
 
@@ -51,6 +71,8 @@ uart_thread.h
 /home/e66/git_work/linux_app_ins_arm_prj/main/uart_thread.h
 max485_thread.h
 /home/e66/git_work/linux_app_ins_arm_prj/main/max485_thread.h
+coding_frame_creat.h
+/home/e66/git_work/linux_app_ins_arm_prj/main/coding_frame_creat.h
 
 /home/e66/git_work/linux_app_ins_arm_prj/main/app_init.h
 app_config.h

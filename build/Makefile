@@ -120,7 +120,7 @@ app_static: cmake_check_build_system
 
 # fast build rule for target.
 app_static/fast:
-	$(MAKE) -f app/linux_peripheral/CMakeFiles/app_static.dir/build.make app/linux_peripheral/CMakeFiles/app_static.dir/build
+	$(MAKE) -f app/coding_frame/CMakeFiles/app_static.dir/build.make app/coding_frame/CMakeFiles/app_static.dir/build
 .PHONY : app_static/fast
 
 #=============================================================================

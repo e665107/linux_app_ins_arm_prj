@@ -9,7 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
   "../app/CMakeLists.txt"
-  "../app/linux_peripheral/CMakeLists.txt"
+  "../app/coding_frame/CMakeLists.txt"
   "../arm_linux_cross.cmake"
   "../bsp/CMakeLists.txt"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
@@ -46,7 +46,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "app/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "app/linux_peripheral/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "app/coding_frame/CMakeFiles/CMakeDirectoryInformation.cmake"
   "bsp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "flib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "main/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -54,7 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "app/linux_peripheral/CMakeFiles/app_static.dir/DependInfo.cmake"
+  "app/coding_frame/CMakeFiles/app_static.dir/DependInfo.cmake"
   "bsp/CMakeFiles/bsp_static.dir/DependInfo.cmake"
   "flib/CMakeFiles/flib_static.dir/DependInfo.cmake"
   "main/CMakeFiles/test_app.dir/DependInfo.cmake"

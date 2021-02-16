@@ -15,3 +15,7 @@ if (${LINUX_PERIPHERAL_APP})
 add_subdirectory(linux_peripheral)
 endif (${LINUX_PERIPHERAL_APP})
 
+if (${CODING_FRAME_APP})
+add_subdirectory(coding_frame)
+endif (${CODING_FRAME_APP})
+

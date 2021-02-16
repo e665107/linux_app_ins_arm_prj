@@ -2,9 +2,9 @@
 /home/e66/git_work/linux_app_ins_arm_prj/build/CMakeFiles/edit_cache.dir
 /home/e66/git_work/linux_app_ins_arm_prj/build/app/CMakeFiles/rebuild_cache.dir
 /home/e66/git_work/linux_app_ins_arm_prj/build/app/CMakeFiles/edit_cache.dir
-/home/e66/git_work/linux_app_ins_arm_prj/build/app/linux_peripheral/CMakeFiles/rebuild_cache.dir
-/home/e66/git_work/linux_app_ins_arm_prj/build/app/linux_peripheral/CMakeFiles/app_static.dir
-/home/e66/git_work/linux_app_ins_arm_prj/build/app/linux_peripheral/CMakeFiles/edit_cache.dir
+/home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame/CMakeFiles/rebuild_cache.dir
+/home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame/CMakeFiles/app_static.dir
+/home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame/CMakeFiles/edit_cache.dir
 /home/e66/git_work/linux_app_ins_arm_prj/build/bsp/CMakeFiles/rebuild_cache.dir
 /home/e66/git_work/linux_app_ins_arm_prj/build/bsp/CMakeFiles/bsp_static.dir
 /home/e66/git_work/linux_app_ins_arm_prj/build/bsp/CMakeFiles/edit_cache.dir

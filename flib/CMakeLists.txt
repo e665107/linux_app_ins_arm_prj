@@ -19,6 +19,12 @@ set(SRCS
 )
 endif (${LINUX_PERIPHERAL_APP})
 
+set(SRCS
+    src/thread_common.c
+    src/delay.c
+)
+
+
 
 add_library(flib_static STATIC  ${SRCS})
 

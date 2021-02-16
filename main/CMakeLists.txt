@@ -1,6 +1,6 @@
 # include_directories(${PROJECT_SOURCE_DIR}/app)
 
-file(GLOB hdrs "*.h")
+# file(GLOB hdrs "*.h")
 file(GLOB srcs "*.c")
 file(GLOB mainfile "main.c")
 list(REMOVE_ITEM srcs ${mainfile})
@@ -12,10 +12,12 @@ list(REMOVE_ITEM srcs ${mainfile})
 
 #link_directories(${PROJECT_BINARY_DIR}/lib)
 
-add_executable(test_app ${srcs} ${hdrs} ${mainfile})
+# add_executable(test_app ${srcs} ${hdrs} ${mainfile})
+add_executable(test_app ${srcs}  ${mainfile})
 
 # target_link_libraries(test_app app_static  bsp_static comlib_static pthread )
 
 target_link_libraries(test_app  pthread  bsp_static app_static  flib_static)
+
 
 

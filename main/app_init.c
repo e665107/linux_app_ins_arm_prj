@@ -38,6 +38,10 @@
 #include "max485_thread.h"
 #endif // MACRO
 
+#ifdef CODING_FRAME_APP
+#include "coding_frame_creat.h"
+#endif // MACRO
+
 
 void app_init(void)
 {
@@ -97,6 +101,9 @@ void app_init(void)
     create_max485_threads(TEST1_THREAD_PRIORITY);
 #endif // MACRO
 
+#ifdef CODING_FRAME_APP
+    coding_frame_task_create();
+#endif // MACRO
     
 }
 

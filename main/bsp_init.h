@@ -69,8 +69,9 @@
 
 #endif // MACRO
 
-
-
+#ifdef CODING_FRAME_APP
+#define BSP_LED
+#endif // MACRO
 
 void bsp_init(void);
 

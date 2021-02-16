@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/e66/git_work/linux_app_ins_arm_prj/build/app/linux_peripheral/cmake_install.cmake")
+  include("/home/e66/git_work/linux_app_ins_arm_prj/build/app/coding_frame/cmake_install.cmake")
 
 endif()
 
